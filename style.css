@@ -1,0 +1,7 @@
+img{
+    height:100vh;
+    border-width: 6px;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgb(85, 134, 89), rgb(209, 206, 5)) 1;
+    float : left;
+}
