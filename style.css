@@ -1,7 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica');
+
+
+
+
 img{
-    height:100vh;
     border-width: 6px;
     border-style: solid;
     border-image: linear-gradient(to right, rgb(85, 134, 89), rgb(209, 206, 5)) 1;
-    float : left;
+    height:550px;
+    width:50%;
+}
+.profile-image{
+    display:flex;
+    justify-content:center;
+}
+h1{
+    text-align: center;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 5rem;
+    text-decoration: underline;
+}
+.bio{
+    display:flex;
+    justify-content:center;
 }
