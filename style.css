@@ -1,26 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Aclonica');
-
-
-
-
-img{
-    border-width: 6px;
-    border-style: solid;
-    border-image: linear-gradient(to right, rgb(85, 134, 89), rgb(209, 206, 5)) 1;
-    height:550px;
-    width:50%;
-}
-.profile-image{
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+.background-image{
+    width:100vw;
+    position:absolute;
     display:flex;
     justify-content:center;
 }
 h1{
     text-align: center;
-    font-family: 'Aclonica', sans-serif;
+    font-family: 'Dancing Script', cursive;
     font-size: 5rem;
-    text-decoration: underline;
+    background-color: rgb(192, 188, 188);
 }
-.bio{
+.bio1{
+    box-shadow:10px 10px 30px black;
+    margin-left:30px;
+    padding:10px;
+    border-radius:70px;
+    background-color: whitesmoke;
+    color:rgb(0, 0, 0);
+    margin-top:30px;
+    font-family: sans-serif;
+    font-size:1.5rem;
+    font-weight: 400;
+    position:absolute;
     display:flex;
     justify-content:center;
+    z-index: 1000;
+}
+.bio2{
+    box-shadow:10px 10px 30px black;
+    margin-left:30px;
+    padding : 10px;
+    border-radius:70px;
+    background-color: whitesmoke;
+    color:rgb(0, 0, 0);
+    margin-top:1000px;
+    font-family: Hind Siliguri,Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-size:1.5rem;
+    font-weight: 400;
+    position:absolute;
+    display:flex;
+    justify-content:center;
+    z-index: 1000;
+}
+.connect-line{
+    position:relative;
+    display:flex;
+    justify-content:start;
+    z-index: 1000;
+}
+.connect-link{
+    position:relative;
+    display:flex;
+    justify-content:start;
+    z-index: 1000;
+}
+i{
+    color:rgb(0, 0, 0);
+    font-size:5rem;
+    margin:auto;
+}
+h3{
+    text-decoration:underline;
 }
